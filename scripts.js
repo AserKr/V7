@@ -161,7 +161,7 @@ function palindrome(str) {
     return false;
   }
 
-  return reverse(str) === str;
+  return reverse(str.toLowerCase()) === str.toLowerCase();
 }
 console.assert(
   palindrome("ramar") === true,
